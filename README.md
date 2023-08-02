@@ -11,7 +11,7 @@ Django project created by FreeCodeCamp in [Learn Django by Building an Online Ma
 
 ### pip
 
-Remember to run `pip install -r requirements.txt` to install dependencies.<br>
+Remember to run `pip install -r requirements.txt` to install dependencies. `requirements-dev.txt` for development dependencies. <br>
 Also ``py -m venv venv`` to create a virtual environment. Then activate it with ``.\venv\Scripts\activate``.
 
 ### django

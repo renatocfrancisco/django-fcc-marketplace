@@ -9,8 +9,12 @@ Django project created by FreeCodeCamp in [Learn Django by Building an Online Ma
 
 ## Commands
 
+### pip
+
 Remember to run `pip install -r requirements.txt` to install dependencies.<br>
 Also ``py -m venv venv`` to create a virtual environment. Then activate it with ``.\venv\Scripts\activate``.
+
+### django
 
 Project started with `django-admin startproject puddle` after `pip install django`
 
@@ -24,11 +28,17 @@ To run server, run `py .\manage.py runserver`<br>
 To create user for admin page, run `py .\manage.py createsuperuser` and enter your credentials. <br>
 To access admin page, go to `/admin`
 
+### formatting
+
+You can use `flake8` to check for PEP8 compliance.<br>
+You can use `black` (*ex: `black .\puddle\`*) to format your code.<br>
+
 <details>
 <summary>Dev Commentary</summary>
 
+<br>
 First time messing with Django. 😐<br>
 The tutorial's title says "Python Tutorial for Beginners". That's funny.<br>
-Video timestamp: **53:39**
+Video timestamp: **1:28:24**
 
 </details>

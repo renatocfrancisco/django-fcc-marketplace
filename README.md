@@ -21,6 +21,7 @@ To access admin page, go to `/admin`
 <summary>Dev Commentary</summary>
 
 First time messing with Django. 😐<br>
+The tutorial's title says "Python Tutorial for Beginners". That's funny.<br>
 Video timestamp: **53:39**
 
 </details>

@@ -3,7 +3,7 @@
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
 
-Django project for a Marketplace created by FreeCodeCamp in [Learn Django by Building aN Online Marketplace](https://youtu.be/ZxMB6Njs3ck)
+Django project created by FreeCodeCamp in [Learn Django by Building an Online Marketplace](https://youtu.be/ZxMB6Njs3ck)
 
 Project started with `django-admin startproject puddle` after `pip install django`
 

@@ -5,7 +5,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Flake8](https://img.shields.io/badge/flake8-221e57?style=flat&logo=python&logoColor=17acc0)](https://flake8.pycqa.org/en/latest/)
 
-Django project created by FreeCodeCamp in [Learn Django by Building an Online Marketplace](https://youtu.be/ZxMB6Njs3ck)
+Django project created by [CodeWithStein](https://www.youtube.com/c/CodeWithStein), available in FreeCodeCamp's [Learn Django by Building an Online Marketplace](https://youtu.be/ZxMB6Njs3ck)
 
 ## Commands
 
@@ -36,7 +36,6 @@ You can use `black` (*ex: `black .\puddle\`*) to format your code.<br>
 <details>
 <summary>Dev Commentary</summary>
 
-<br>
 First time messing with Django. This repository is just a way to say that I know something of this framework. 😐<br>
 The tutorial's title says "Python Tutorial for Beginners". That's funny.<br>
 Video timestamp: **1:28:24**

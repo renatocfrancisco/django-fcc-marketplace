@@ -37,7 +37,7 @@ You can use `black` (*ex: `black .\puddle\`*) to format your code.<br>
 <summary>Dev Commentary</summary>
 
 <br>
-First time messing with Django. 😐<br>
+First time messing with Django. This repository is just a way to say that I know something of this framework. 😐<br>
 The tutorial's title says "Python Tutorial for Beginners". That's funny.<br>
 Video timestamp: **1:28:24**
 

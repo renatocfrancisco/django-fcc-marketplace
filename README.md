@@ -1,7 +1,9 @@
 # django-fcc-marketplace
 
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
+[![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Flake8](https://img.shields.io/badge/flake8-221e57?style=flat&logo=python&logoColor=17acc0)](https://flake8.pycqa.org/en/latest/)
 
 Django project created by FreeCodeCamp in [Learn Django by Building an Online Marketplace](https://youtu.be/ZxMB6Njs3ck)
 

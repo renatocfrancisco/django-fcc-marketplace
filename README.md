@@ -39,6 +39,6 @@ First time messing with Django. This repository is just a way to say that I know
 The responsive aspect of the project is not existent. I just wanted to learn the basics of Django.
 The tutorial's title says "Python Tutorial for Beginners". That's funny.
 
-Video timestamp: **1:40:00**
+Video timestamp: **1:50:44**
 
 </details>

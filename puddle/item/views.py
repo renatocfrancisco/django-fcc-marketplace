@@ -1,9 +1,25 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
+from django.db.models import Q
 
-from .models import Item
+from .models import Category, Item
 from .forms import EditItemForm, NewItemForm
 
+def items(req):
+    query = req.GET.get("query", '')
+    category_id = req.GET.get("category", 0)
+    categories = Category.objects.all()
+    items = Item.objects.filter(is_sold=False)
+    
+    if category_id:
+        items = items.filter(category=category_id)
+ 
+    if query:
+        items = items.filter(Q(name__icontains=query) | Q(description__icontains=query))
+
+    return render(req, "item/items.html", {
+        "items": items, "query": query, "categories": categories, "category_id": int(category_id)
+    })
 
 # Create your views here.
 def detail(req, pk):
@@ -58,7 +74,7 @@ def edit(req, pk):
     item = get_object_or_404(Item, pk=pk, created_by=req.user)
     if req.method == "POST":
         form = EditItemForm(req.POST, req.FILES, instance=item)
-        if form.is_valid():
+        if form.is_valid():            
             form.save()
             return redirect("item:detail", pk=item.id)
     else:

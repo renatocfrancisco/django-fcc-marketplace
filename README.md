@@ -36,6 +36,7 @@ You can use `black` (*ex: `black .`*) to format your code.
 
 First time messing with Django. This repository is just a way to say that I know something of this framework. 😐
 
+The responsive aspect of the project is not existent. I just wanted to learn the basics of Django.
 The tutorial's title says "Python Tutorial for Beginners". That's funny.
 
 Video timestamp: **1:40:00**

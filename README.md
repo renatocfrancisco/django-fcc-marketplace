@@ -38,6 +38,6 @@ First time messing with Django. This repository is just a way to say that I know
 
 The tutorial's title says "Python Tutorial for Beginners". That's funny.
 
-Video timestamp: **1:28:24**
+Video timestamp: **1:40:00**
 
 </details>

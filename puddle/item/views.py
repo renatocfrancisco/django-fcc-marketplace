@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 
 from .models import Item
-from .forms import NewItemForm
+from .forms import EditItemForm, NewItemForm
 
 
 # Create your views here.
@@ -52,3 +52,23 @@ def delete(req, pk):
     item.delete()
 
     return redirect("dashboard:index")
+
+@login_required
+def edit(req, pk):
+    item = get_object_or_404(Item, pk=pk, created_by=req.user)
+    if req.method == "POST":
+        form = EditItemForm(req.POST, req.FILES, instance=item)
+        if form.is_valid():
+            form.save()
+            return redirect("item:detail", pk=item.id)
+    else:
+        form = EditItemForm(instance=item)
+
+    return render(
+        req,
+        "item/form.html",
+        {
+            "form": form,
+            "title": "Edit Item",
+        },
+    )

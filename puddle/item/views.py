@@ -43,3 +43,12 @@ def new(req):
             "title": "New Item",
         },
     )
+
+
+@login_required
+def delete(req, pk):
+    item = get_object_or_404(Item, pk=pk, created_by=req.user)
+    item.image.delete()  # delete image used by item
+    item.delete()
+
+    return redirect("dashboard:index")

@@ -11,33 +11,33 @@ Django project created by [CodeWithStein](https://www.youtube.com/c/CodeWithStei
 
 ### pip
 
-Remember to run `pip install -r requirements.txt` to install dependencies. `requirements-dev.txt` for development dependencies. <br>
+Remember to run `pip install -r requirements.txt` to install dependencies. `requirements-dev.txt` for development dependencies.
+
 Also ``py -m venv venv`` to create a virtual environment. Then activate it with ``.\venv\Scripts\activate``.
 
 ### django
 
 Project started with `django-admin startproject puddle` after `pip install django`
 
-Generated `/core` with `py .\manage.py startapp core`<br>
-Generated `/item` with `py .\manage.py startapp item`<br>
-
-To create migrations, run `py .\manage.py makemigrations`<br>
-To apply migrations, run `py .\manage.py migrate`<br>
-To run server, run `py .\manage.py runserver`<br>
-
-To create user for admin page, run `py .\manage.py createsuperuser` and enter your credentials. <br>
-To access admin page, go to `/admin`
+- Generated `/core` with `py .\manage.py startapp core`
+- Generated `/item` with `py .\manage.py startapp item`
+- To create migrations, run `py .\manage.py makemigrations`
+- To apply migrations, run `py .\manage.py migrate`
+- To run server, run `py .\manage.py runserver`
+- To create user for admin page, run `py .\manage.py createsuperuser` and enter your credentials.
+- To access admin page, go to `/admin`
 
 ### formatting
 
-You can use `flake8` to check for PEP8 compliance.<br>
-You can use `black` (*ex: `black .\puddle\`*) to format your code.<br>
+You can use `flake8` to check for PEP8 compliance.
+You can use `black` (*ex: `black .`*) to format your code.
 
-<details>
-<summary>Dev Commentary</summary>
+<details><summary>Dev Commentary</summary>
 
-First time messing with Django. This repository is just a way to say that I know something of this framework. 😐<br>
-The tutorial's title says "Python Tutorial for Beginners". That's funny.<br>
+First time messing with Django. This repository is just a way to say that I know something of this framework. 😐
+
+The tutorial's title says "Python Tutorial for Beginners". That's funny.
+
 Video timestamp: **1:28:24**
 
 </details>
